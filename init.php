@@ -1,8 +1,8 @@
 <?php
 /**
-* Plugin Name: YITH WooCommerce Wishlist
-* Plugin URI: http://yithemes.com/themes/plugins/yith-woocommerce-wishlist/
-* Description: YITH WooCommerce Wishlist allows you to add Wishlist functionality to your e-commerce.
+* Plugin Name: Kunsthaus YITH WooCommerce Wishlist
+* Plugin URI: https://github.com/bigmarina/yith-woocommerce-wishlist/
+* Description: YITH WooCommerce Wishlist forked and tuned for Kunsthuas
 * Version: 2.0.10
 * Author: Yithemes
 * Author URI: http://yithemes.com/
