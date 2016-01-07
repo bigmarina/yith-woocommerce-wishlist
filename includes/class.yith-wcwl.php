@@ -306,9 +306,9 @@ if ( ! class_exists( 'YITH_WCWL' ) ) {
             }
 
             if ( is_user_logged_in() ) {
-                $sql = "DELETE FROM {$wpdb->yith_wcwl_items} WHERE user_id = %d AND prod_id = %d";
+                $sql = " REPLACE INTO {$wpdb->yith_wcwl_items} WHERE user_id = %d AND prod_id = %d";
                 $sql_args = array(
-                    $user_id,
+                    0,
                     $prod_id
                 );
 
